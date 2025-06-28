@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="js/toggle_sidebar.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D'Arsby - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="home-page">
+<button id="sidebar-toggle" aria-label="Toggle sidebar" aria-expanded="false" aria-controls="sidebar">
+  ☰
+</button>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id ="sidebar">
+    <h1><a href="index.html">D’ARSBY</a></h1>
+    <nav>
+      <a href="search.html">SEARCH</a>
+      <a href="rating_system.html">RATING SYSTEM</a>
+      <a href="hof.html">HALL OF FAME</a>
+      <a href="hosh.html">HALL OF SHAME</a>
+      <a href="about.html">ABOUT</a>
+    </nav>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+
+    <section>
+      <h2>New</h2>
+      <div class="poster-grid">
+        <div class="poster"><a href="games/review_g3.html"><img src="images/g3.png" alt="poster image"><span class="icon"></span></a></div>
+        <div class="poster"><a href="anim/review_a3.html"><img src="images/a3.png" alt="poster image"><span class="icon"></span></a></div>
+        <div class="poster"><a href="books/review_b3.html"><img src="images/b3.png" alt="poster image"><span class="icon"></span></a></div>
+        <a href="search.html?sort=dateDesc" class="arrow">&rarr;</a>
+      </div>
+      <br>
+    </section>
+
+    <section>
+      <h2>Best Rated</h2>
+      <div class="poster-grid">
+        <div class="poster"><a href="movies/review_m3.html"><img src="images/m3.png" alt="poster image"><span class="icon"></span></a></div>
+        <div class="poster"><a href="tv/review_t3.html"><img src="images/t3.png" alt="poster image"><span class="icon"></span></a></div>
+        <div class="poster"><a href="tv/review_t5.html"><img src="images/t5.png" alt="poster image"><span class="icon"></span></a></div>
+        <a href="search.html?sort=ratingDesc" class="arrow">&rarr;</a>
+      </div>
+    </section>
+
+    <!-- Explore Section
+    <section>
+      <h2>Explore</h2>
+      <div class="poster-grid">
+        <div class="poster"></div>
+        <div class="poster"></div>
+        <div class="poster"></div>
+        <div class="poster"></div>
+        <a href="search.html" class="arrow" aria-label="Explore more">&rarr;</a>
+      </div>
+    </section> -->
+
+  </div>
+
+</body>
+</html>

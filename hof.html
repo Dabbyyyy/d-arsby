@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="js/toggle_sidebar.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D'Arsby - Hall of Fame</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="hof-page">
+<button id="sidebar-toggle" aria-label="Toggle sidebar" aria-expanded="false" aria-controls="sidebar">
+  ☰
+</button>
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <h1 class="logo"><a href="index.html">D’ARSBY</a></h1>
+      <nav class="nav">
+        <a href="search.html"><span class="icon"></span> SEARCH</a>
+        <a href="rating_system.html"><span class="icon"></span> RATING SYSTEM</a>
+        <a href="hof.html" class="active"><span class="icon"></span> HALL OF FAME</a>
+        <a href="hosh.html"><span class="icon"></span> HALL OF SHAME</a>
+        <a href="about.html"><span class="icon"></span> ABOUT</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+      <h2>Hall of Fame</h2>
+
+      <!-- Movies -->
+      <section>
+        <h3>Movies</h3>
+        <div>
+          <div><a href="movies/review_m3.html"><span class="poster"><img src="images/m3.png" alt="poster image"></span></a></div>
+          <div><a href="movies/review_m5.html"><span class="poster"><img src="images/m5.png" alt="poster image"></span></a></div>
+          <div><a href="movies/review_m1.html"><span class="poster"><img src="images/m1.png" alt="poster image"></span></a></div>
+          
+          
+          <a href="search.html?category=movie&sort=ratingDesc" class="arrow">&rarr;</a>
+        </div>
+      </section>
+
+      <!-- TV -->
+      <section>
+        <h3>TV</h3>
+        <div>
+          <div><a href="tv/review_t3.html"><span class="poster"><img src="images/t3.png" alt="poster image"></span></a></div>
+          <div><a href="tv/review_t5.html"><span class="poster"><img src="images/t5.png" alt="poster image"></span></a></div>
+          <div><a href="tv/review_t1.html"><span class="poster"><img src="images/t1.png" alt="poster image"></span></a></div>
+          
+          <a href="search.html?category=tv&sort=ratingDesc" class="arrow">&rarr;</a>
+        </div>
+      </section>
+
+      <!-- Video Games -->
+      <section>
+        <h3>Video Games</h3>
+        <div>
+          <div><a href="games/review_g1.html"><span class="poster"><img src="images/g1.png" alt="poster image"></span></a></div>
+          <div><a href="games/review_g2.html"><span class="poster"><img src="images/g2.png" alt="poster image"></span></a></div>
+          <div><a href="games/review_g4.html"><span class="poster"><img src="images/g4.png" alt="poster image"></span></a></div>
+          
+          <a href="search.html?category=game&sort=ratingDesc" class="arrow">&rarr;</a>
+        </div>
+      </section>
+
+      <!-- Books -->
+      <section>
+        <h3>Books</h3>
+        <div>
+          <div><a href="books/review_b1.html"><span class="poster"><img src="images/b1.png" alt="poster image"></span></a></div>
+          <div><a href="books/review_b4.html"><span class="poster"><img src="images/b4.png" alt="poster image"></span></a></div>
+          <div><a href="books/review_b3.html"><span class="poster"><img src="images/b3.png" alt="poster image"></span></a></div>
+          
+          <a href="search.html?category=book&sort=ratingDesc" class="arrow">&rarr;</a>
+        </div>
+      </section>
+
+      <!-- Anime/Animation -->
+      <section>
+        <h3>Anime/Animation</h3>
+        <div>
+          <div><a href="anim/review_a2.html"><span class="poster"><img src="images/a2.png" alt="poster image"></span></a></div>
+          <div><a href="anim/review_a4.html"><span class="poster"><img src="images/a4.png" alt="poster image"></span></a></div>
+          <div><a href="anim/review_a5.html"><span class="poster"><img src="images/a5.png" alt="poster image"></span></a></div>
+          
+          <a href="search.html?category=animation&sort=ratingDesc" class="arrow">&rarr;</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

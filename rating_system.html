@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="js/toggle_sidebar.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D'Arsby - Rating System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<button id="sidebar-toggle" aria-label="Toggle sidebar" aria-expanded="false" aria-controls="sidebar">
+  ☰
+</button>
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <h1 class="logo"><a href="index.html">D’ARSBY</a></h1>
+      <nav class="nav">
+        <a href="search.html"><span class="icon"></span> SEARCH</a>
+        <a href="rating_system.html" class="active"><span class="icon"></span> RATING SYSTEM</a>
+        <a href="hof.html"><span class="icon"></span> HALL OF FAME</a>
+        <a href="hosh.html"><span class="icon"></span> HALL OF SHAME</a>
+        <a href="about.html"><span class="icon"></span> ABOUT</a>
+      </nav>
+    </aside>
+
+    <main class="main-content rating-system">
+      <h2>The Rating System</h2>
+
+      <div class="rating-item rating-10">
+        <div class="rating-circle">10</div>
+        <div class="rating-desc"><b>Undisputed Masterpiece</b>. Not perfect by any means, but there's nothing I'd change about it.</div>
+      </div>
+
+      <div class="rating-item rating-9">
+        <div class="rating-circle">9</div>
+        <div class="rating-desc"><b>A Flawed Masterpiece</b>. A few things I'd do differently, but a masterwork nonetheless.</div>
+      </div>
+
+      <div class="rating-item rating-8">
+        <div class="rating-circle">8</div>
+        <div class="rating-desc"><b>The Standard</b>. If I were to create a piece of media, I'd want it to be rated 8/10.</div>
+      </div>
+
+      <div class="rating-item rating-7">
+        <div class="rating-circle">7</div>
+        <div class="rating-desc"><b>Good</b>. A fun experience overall and a worthwhile pastime.</div>
+      </div>
+
+      <div class="rating-item rating-6">
+        <div class="rating-circle">6</div>
+        <div class="rating-desc"><b>A Passing Grade</b>. Disposable media I'd consume and forget.</div>
+      </div>
+
+      <div class="rating-item rating-5">
+        <div class="rating-circle">5</div>
+        <div class="rating-desc"><b>Average</b>. Nothing special or worth seeking out.</div>
+      </div>
+
+      <div class="rating-item rating-4">
+        <div class="rating-circle">4</div>
+        <div class="rating-desc"><b>Below Average</b>. Not bad enough to be rated a 3, but not good enough to be rated a 5.</div>
+      </div>
+
+      <div class="rating-item rating-3">
+        <div class="rating-circle">3</div>
+        <div class="rating-desc"><b>Bad</b>. The world of entertainment is better off without this piece of media.</div>
+      </div>
+
+      <div class="rating-item rating-2">
+        <div class="rating-circle">2</div>
+        <div class="rating-desc"><b>Very Bad</b>. An insult to the art to storytelling itself.</div>
+      </div>
+
+      <div class="rating-item rating-1">
+        <div class="rating-circle">1</div>
+        <div class="rating-desc"><b>Unconsumable garbage</b>.</div>
+      </div>
+
+      <div class="rating-item rating-x">
+        <div class="rating-circle">X.5</div>
+        <div class="rating-desc">
+          <b>Certain pieces of media will get a <i>partial</i> rating of <i>(X.5)</i></b>. 
+        This means they fit in somewhere between 2 ratings – a single compelling arguement away from 
+        either <i>(X+1)</i> or <i>(X-1)</i>
+        </div>
+      </div>
+    <br>
+
+    </main>
+  </div>
+</body>
+</html>

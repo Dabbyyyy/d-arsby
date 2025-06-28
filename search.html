@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="js/toggle_sidebar.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D'Arsby - Search</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/search.js" defer></script>
+</head>
+<body>
+<button id="sidebar-toggle" aria-label="Toggle sidebar" aria-expanded="false" aria-controls="sidebar">
+  ☰
+</button>
+
+<div class="container">
+  <aside class="sidebar" id="sidebar">
+    <h1 class="logo"><a href="index.html">D’ARSBY</a></h1>
+    <nav class="nav">
+      <a href="search.html" class="active"><span class="icon"></span> SEARCH</a>
+      <a href="rating_system.html"><span class="icon"></span> RATING SYSTEM</a>
+      <a href="hof.html"><span class="icon"></span> HALL OF FAME</a>
+      <a href="hosh.html"><span class="icon"></span> HALL OF SHAME</a>
+      <a href="about.html"><span class="icon"></span> ABOUT</a>
+    </nav>
+  </aside>
+
+
+  <main class="search-container">
+    <h2>Search</h2>
+
+    <input type="text" id="searchInput" placeholder="Search..." name="searchQuery" />
+
+    <fieldset>
+      <legend>Filter</legend>
+      <label><input type="checkbox" name="filter" value="movie" /> Movies</label>
+      <label><input type="checkbox" name="filter" value="tv" /> TV</label>
+      <label><input type="checkbox" name="filter" value="game" /> Video Games</label>
+      <label><input type="checkbox" name="filter" value="book" /> Books</label>
+      <label><input type="checkbox" name="filter" value="animation" /> Anime/Animation</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Sort by</legend>
+      <select id="sortSelect" name="sort">
+        <option value="dateAsc">Date (Oldest First)</option>
+        <option value="dateDesc">Date (Newest First)</option>
+        <option value="ratingAsc">Rating (Low to High)</option>
+        <option value="ratingDesc">Rating (High to Low)</option>
+      </select>
+    </fieldset>
+
+    <div class="results">
+      <br>
+      <h3>Results</h3>
+      <div id="results" class="results">Loading... </div>
+    </div>
+  </main>
+</div>
+
+</body>
+</html>
